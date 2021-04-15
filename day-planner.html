@@ -67,12 +67,21 @@
     <!--左-->
     <div class="row">
         <div class="col-3">
-        <label for="typeIn" class="mt-4">When do you want to start your day?</label>
+        <label for="typeIn" class="mt-4"> When do you want to start your day?</label>
         <input type="text" id="dayStart" value="" onfocus="this.value='';">
         <button type="button" class="btn btn-light btn-sm" onclick="dayStart()">Add</button>
 
         <!--Add 25-->
         <button type="button" class="btn btn-light btn-sm"  onclick="add25Min()">+25min</button>
+        <!-- Template button-->
+        <div class="dropdown">
+            <button type="button" class="btna btn-light btn-sm"  onclick="template()">Templates</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
 
         <div id="timeTrack"></div>
         </div>
@@ -84,7 +93,7 @@
         <div id="contentboxid"></div>
     </div>
 
-<!--右-->
+    <!--右-->
 
     <div class="col-3">
         
