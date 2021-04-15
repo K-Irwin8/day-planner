@@ -1,26 +1,5 @@
-#yay{
-    
-    width: 600px;   
-    height: 20px; 
-}
-
-#contentboxid{
-    margin-top: 100px;
-}
-
-#leftTimeTracker{
-    margin-top: 20px;
-}
-
-.col{
-    
-}
-
-#dayStart{
-    width: 80px;
-}
-
-.btna {
+/* Dropdown Button */
+.dropbtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
