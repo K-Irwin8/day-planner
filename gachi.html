@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="day-planner.css">
+</head>
+<body>
+<div class="container">
+    <div class="row" >
+      <div class="col">
+          <button type="button" class="btn btn-light btn-lg" onclick="timePortfolio1()">本</button>
+      </div>
+
+      <div class="col">
+        <button type="button" class="btn btn-light btn-lg" onclick="timePortfolio2()">本</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio3()">Tech</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio4()">Mind</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio5()">OKR</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio6()">OKR</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio7()">OKR</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio8()">Intern</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio9()">Intern</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio10()">Intern</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio11()">Intern</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio12()">YT</button>
+    </div>
+
+    <div class="col">
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio13()">Gym</button>
+    </div>
+      
+    </div>
+
+    <!--左-->
+    <div class="row">
+        <div class="col-3">
+        <label for="typeIn" class="mt-4"> When do you want to start your day?</label>
+        <input type="text" id="dayStart" value="" onfocus="this.value='';">
+        <button type="button" class="btn btn-light btn-sm" onclick="dayStart()">Add</button>
+
+        <!--Add 25-->
+        <button type="button" class="btn btn-light btn-sm"  onclick="add25Min()">+25min</button>
+        <!-- Template button-->
+        <div class="dropdown">
+            <button type="button" class="btna btn-light btn-sm"  onclick="template()">Templates</button>
+            <div class="dropdown-content">
+                <a href="weekdays.html">Weekdays</a>
+                <a href="weekends.html">Weekends</a>
+                <a href="friday.html">Friday</a>
+                <a href="surannpu.html">スランプ期</a>
+                <a href="isogashii.html">忙しい</a>
+                <a href="chillDay.html">Chill day</a>
+                <a href="gachi.html">ガチ</a>
+            </div>
+          </div>
+          
+        <div id="timeTrack"></div>
+        </div>
+
+    <!--真ん中-->
+    <div class="col-6">
+
+        <div id="contentboxid"></div>
+    </div>
+
+    <!--右-->
+
+    <div class="col-3">
+        
+
+    <!--textbox-->
+        <label for="typeIn" class="mt-4">Add your to-do:</label>
+        <input type="text" id="todoAdd" value="" onfocus="this.value='';">
+        <button type="button" class="btn btn-light btn-lg"  onclick="getToDo()">Add</button><br><br>
+    
+
+    <!--checkbox-->
+
+        <div id="checkboxer"></div>
+
+    </div>
+    </div>
+</div>
+
+
+    <script src="gachi.js"></script>
+</body>
+</html>
