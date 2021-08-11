@@ -5,6 +5,6 @@
 
 ## Future plans & ideas
 
-* Make the UI design better 
+* Make the UI design better
 * 一日の流れのテンプレを作る
-   * 土日のテンプレ、平日のテンプレとか
+   * 土日のテンプレ、平日のテンプレとか: done
