@@ -39,19 +39,19 @@
     </div>
 
     <div class="col">
-        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio8()">Intern</button>
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio8()">学校</button>
     </div>
 
     <div class="col">
-        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio9()">Intern</button>
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio9()">学就</button>
     </div>
 
     <div class="col">
-        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio10()">Intern</button>
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio10()">就活</button>
     </div>
 
     <div class="col">
-        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio11()">Intern</button>
+        <button type="button" class="btn btn-light btn-lg"  onclick="timePortfolio11()">院試</button>
     </div>
 
     <div class="col">
@@ -67,12 +67,27 @@
     <!--左-->
     <div class="row">
         <div class="col-3">
-        <label for="typeIn" class="mt-4">When do you want to start your day?</label>
+        <label for="typeIn" class="mt-4"> When do you want to start your day?</label>
         <input type="text" id="dayStart" value="" onfocus="this.value='';">
         <button type="button" class="btn btn-light btn-sm" onclick="dayStart()">Add</button>
 
         <!--Add 25-->
         <button type="button" class="btn btn-light btn-sm"  onclick="add25Min()">+25min</button>
+        <!-- Template button-->
+        <div class="dropdown">
+            <button type="button" class="btna btn-light btn-sm"  onclick="template()">Templates</button>
+            <div class="dropdown-content">
+              <a href="weekdays.html">Weekdays</a>
+              <a href="weekends.html">Weekends</a>
+              <a href="friday.html">Friday</a>
+              <a href="surannpu.html">スランプ期</a>
+              <a href="isogashii.html">忙しい</a>
+              <a href="chillDay.html">Chill day</a>
+              <a href="gachi.html">ガチ</a>
+              <a href="day-planner.html">No template</a>
+
+            </div>
+          </div>
 
         <div id="timeTrack"></div>
         </div>
@@ -84,7 +99,7 @@
         <div id="contentboxid"></div>
     </div>
 
-<!--右-->
+    <!--右-->
 
     <div class="col-3">
         
