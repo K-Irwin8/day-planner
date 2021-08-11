@@ -110,6 +110,11 @@ function add25Min() {
     
 }
 
+// template 機能
+function template(){
+     
+}
+
 //change the colour in the time portfolio
 
 var counter1 = 0;
@@ -345,4 +350,5 @@ function timePortfolio13() {
     
     
 }
+
 
